@@ -25,7 +25,7 @@ def singleton_decorator(cls):
 ```
 
 * **Write a META type and override its** `__call__` **method**
-```
+```python
 class SingletonType(type):
     def __call__(cls, *args, **kwargs):
         try:
